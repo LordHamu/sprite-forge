@@ -1,0 +1,70 @@
+{
+  "asset": "example_enemy",
+  "frame_size": [
+    200,
+    200
+  ],
+  "columns": 4,
+  "animations": [
+    {
+      "name": "idle",
+      "fps": 5,
+      "loop": true,
+      "layout": {
+        "padding": 12,
+        "anchor": "bottom_center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "source_art.png",
+          "rect": [
+            0,
+            0,
+            200,
+            200
+          ]
+        },
+        {
+          "source": "source_art.png",
+          "rect": [
+            200,
+            0,
+            200,
+            200
+          ]
+        }
+      ]
+    },
+    {
+      "name": "walk",
+      "fps": 10,
+      "loop": true,
+      "layout": {
+        "padding": 12,
+        "anchor": "bottom_center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "source_art.png",
+          "rect": [
+            0,
+            200,
+            200,
+            200
+          ]
+        },
+        {
+          "source": "source_art.png",
+          "rect": [
+            200,
+            200,
+            200,
+            200
+          ]
+        }
+      ]
+    }
+  ]
+}
