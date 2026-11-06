@@ -110,4 +110,4 @@ The initial implementation was developed for Backyard Heroes and is being extrac
 
 ## License
 
-No license has been selected yet. Public visibility does not by itself grant permission to reuse or redistribute this code.
+Sprite Forge is licensed under the [MIT License](LICENSE). You may use, modify, distribute, sublicense, and sell copies of the software, provided the copyright and license notice are included. The license is permissive and does not require derivative projects to publish their source code.
