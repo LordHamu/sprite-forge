@@ -111,3 +111,28 @@ The initial implementation was developed for Backyard Heroes and is being extrac
 ## License
 
 Sprite Forge is licensed under the [MIT License](LICENSE). You may use, modify, distribute, sublicense, and sell copies of the software, provided the copyright and license notice are included. The license is permissive and does not require derivative projects to publish their source code.
+
+
+## Deepward monster sprite batch
+
+The first Deepward monster batch is stored as reproducible Sprite Forge source and manifests:
+
+- `assets/deepward/monsters/deepward_monsters_prepared.webp`: transparent 6-column × 8-row source grid, 64×64 source cells.
+- `manifests/deepward_monsters.json`: eight monsters × four animation sets (Idle, Attack, Hit, Defeat), normalized to 128×128 frames.
+- `manifests/deepward_monster_battle_roster.json`: compact eight-frame battle roster atlas for the Deepward combat UI.
+
+Rebuild the animation atlas:
+
+```bash
+python -m sprite_forge assemble manifests/deepward_monsters.json --output build/deepward_monsters
+python -m sprite_forge validate build/deepward_monsters/atlas/deepward_monsters_atlas.png build/deepward_monsters/atlas/deepward_monsters_frames.json
+```
+
+Rebuild the compact combat roster atlas:
+
+```bash
+python -m sprite_forge assemble manifests/deepward_monster_battle_roster.json --output build/deepward_monster_battle_roster
+python -m sprite_forge validate build/deepward_monster_battle_roster/atlas/deepward_monster_battle_roster_atlas.png build/deepward_monster_battle_roster/atlas/deepward_monster_battle_roster_frames.json
+```
+
+The prepared sheet is a derived, keyed working source. Keep the original generated source artwork unchanged in the associated Deepward source pack; do not replace it with the prepared sheet.

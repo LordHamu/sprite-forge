@@ -1,0 +1,94 @@
+{
+  "asset": "deepward_monster_battle_roster",
+  "frame_size": [
+    128,
+    128
+  ],
+  "columns": 8,
+  "animations": [
+    {
+      "name": "battle_roster",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 4,
+        "anchor": "bottom_center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/monsters/deepward_monsters_prepared.webp",
+          "rect": [
+            0,
+            0,
+            64,
+            64
+          ]
+        },
+        {
+          "source": "../assets/deepward/monsters/deepward_monsters_prepared.webp",
+          "rect": [
+            0,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "source": "../assets/deepward/monsters/deepward_monsters_prepared.webp",
+          "rect": [
+            0,
+            128,
+            64,
+            64
+          ]
+        },
+        {
+          "source": "../assets/deepward/monsters/deepward_monsters_prepared.webp",
+          "rect": [
+            0,
+            192,
+            64,
+            64
+          ]
+        },
+        {
+          "source": "../assets/deepward/monsters/deepward_monsters_prepared.webp",
+          "rect": [
+            0,
+            256,
+            64,
+            64
+          ]
+        },
+        {
+          "source": "../assets/deepward/monsters/deepward_monsters_prepared.webp",
+          "rect": [
+            0,
+            320,
+            64,
+            64
+          ]
+        },
+        {
+          "source": "../assets/deepward/monsters/deepward_monsters_prepared.webp",
+          "rect": [
+            0,
+            384,
+            64,
+            64
+          ]
+        },
+        {
+          "source": "../assets/deepward/monsters/deepward_monsters_prepared.webp",
+          "rect": [
+            0,
+            448,
+            64,
+            64
+          ]
+        }
+      ]
+    }
+  ]
+}
