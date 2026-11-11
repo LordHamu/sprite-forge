@@ -1,0 +1,304 @@
+{
+  "asset": "deepward_item_icons",
+  "frame_size": [
+    192,
+    192
+  ],
+  "columns": 4,
+  "animations": [
+    {
+      "name": "iron-spear",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            0,
+            0,
+            314,
+            314
+          ]
+        }
+      ]
+    },
+    {
+      "name": "wayfarers-lantern",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            314,
+            0,
+            313,
+            314
+          ]
+        }
+      ]
+    },
+    {
+      "name": "health-potion",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            627,
+            0,
+            314,
+            314
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mana-potion",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            941,
+            0,
+            313,
+            314
+          ]
+        }
+      ]
+    },
+    {
+      "name": "antidote",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            0,
+            314,
+            314,
+            313
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iron-ore",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            314,
+            314,
+            313,
+            313
+          ]
+        }
+      ]
+    },
+    {
+      "name": "healing-herbs",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            627,
+            314,
+            314,
+            313
+          ]
+        }
+      ]
+    },
+    {
+      "name": "monster-fang",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            941,
+            314,
+            313,
+            313
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iron-shard",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            0,
+            627,
+            314,
+            314
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mithril-ore",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            314,
+            627,
+            313,
+            314
+          ]
+        }
+      ]
+    },
+    {
+      "name": "emberstone",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            627,
+            627,
+            314,
+            314
+          ]
+        }
+      ]
+    },
+    {
+      "name": "starsteel-fragment",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            941,
+            627,
+            313,
+            314
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deep-crystal",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            0,
+            941,
+            314,
+            313
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gold-coin",
+      "fps": 1,
+      "loop": false,
+      "layout": {
+        "padding": 12,
+        "anchor": "center",
+        "resample": "nearest"
+      },
+      "frames": [
+        {
+          "source": "../assets/deepward/items/deepward_item_icons_transparent.png",
+          "rect": [
+            314,
+            941,
+            313,
+            313
+          ]
+        }
+      ]
+    }
+  ]
+}
